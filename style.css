@@ -46,6 +46,14 @@ nav{
     font-size: 22px;
 
  }
+ .btn{
+   transition: 0.3s;
+ }
+ .btn:hover{
+   transform: scale(1.05);
+   background-color: #2a514b;
+
+ }
  .right{
     flex: 1;
     display: flex;
@@ -69,7 +77,15 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 12px;
+
       
+ }
+ .card1{
+   transition: 0.3s;
+ }
+ .card1:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
  }
  .card1 img{
     width: 100%;
